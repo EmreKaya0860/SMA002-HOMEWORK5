@@ -1,0 +1,454 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: aqua;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 60vw;
+  height: 90vh;
+  display: flex;
+  background-color: white;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftColumn {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.leftColumnHead {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #c3c6d1;
+}
+
+.leftColumnBody {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.leftColumnInnerBody {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon-container {
+  width: 32%;
+  height: 13%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.leftColumnFooter {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-container:hover {
+  background-color: aquamarine;
+}
+
+.centerColumn {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7f6f9;
+}
+
+.centerColumnBody {
+  width: 90%;
+  height: 90%;
+}
+
+.centerColumnBodyHead {
+  width: 100%;
+  height: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.timeCountContainer {
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 15%;
+  font-size: 10px;
+  border-radius: 5px;
+}
+
+.headIcons {
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+}
+
+.socialMediaContainer {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.twitterContainer {
+  width: 23%;
+  height: 100%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  cursor: pointer;
+}
+
+.twitterContainer:hover {
+  .twitterContainerInnerBody {
+    background-color: white;
+  }
+}
+
+.twitterContainerInnerBody {
+  width: 95%;
+  height: 95%;
+  background-color: #f7f6f9;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.twitterContainerInnerBodyElements {
+  width: 85%;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.followerNumberText {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.followerNumberText > h1 {
+  color: black;
+  height: 0;
+}
+
+.followerNumberText > p {
+  color: grey;
+}
+
+.threeDotContainer {
+  text-align: end;
+}
+
+.instagramContainer {
+  width: 23%;
+  height: 100%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  cursor: pointer;
+}
+
+.instagramContainer:hover {
+  .instagramContainerInnerBody {
+    background-color: white;
+  }
+}
+
+.instagramContainerInnerBody {
+  width: 95%;
+  height: 95%;
+  background-color: #f7f6f9;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.instagramContainerInnerBodyElements {
+  width: 85%;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.youtubeContainer {
+  width: 23%;
+  height: 100%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  cursor: pointer;
+}
+
+.youtubeContainer:hover {
+  .youtubeContainerInnerBody {
+    background-color: white;
+  }
+}
+
+.youtubeContainerInnerBody {
+  width: 95%;
+  height: 95%;
+  background-color: #f7f6f9;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.youtubeContainerInnerBodyElements {
+  width: 85%;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.facebookContainer {
+  width: 23%;
+  height: 100%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  cursor: pointer;
+}
+
+.facebookContainer:hover {
+  .facebookContainerInnerBody {
+    background-color: white;
+  }
+}
+
+.facebookContainerInnerBody {
+  width: 95%;
+  height: 95%;
+  background-color: #f7f6f9;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.facebookContainerInnerBodyElements {
+  width: 85%;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.chartHeader {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerRightContainer {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.greenDot {
+  width: 7px;
+  height: 7px;
+  background-color: lightgreen;
+  border-radius: 50%;
+}
+
+.redDot {
+  width: 7px;
+  height: 7px;
+  background-color: firebrick;
+  border-radius: 50%;
+}
+
+.chartContainer {
+  margin-top: 3%;
+  background-color: white;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.chart {
+  width: 100%;
+  height: 100%;
+}
+
+.centerColumnFooter {
+  width: 100%;
+  margin-top: 3%;
+  height: 33%;
+  display: flex;
+}
+
+.centerColumnFooterLeft {
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.centerColumnFooterLeft > h4 {
+  width: 95%;
+  height: 0;
+}
+
+.centerColumnFooterLeft > div {
+  width: 95%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #c3c6d1;
+}
+
+.centerColumnFooterRight {
+  width: 50%;
+  height: 100%;
+  margin-left: 5%;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centerColumnFooterRightFirst {
+  width: 100%;
+  height: 100%;
+  background-color: #643a69;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 25px;
+}
+
+.centerColumnFooterRightFirst > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.centerColumnFooterRightFirst > div > p {
+  color: white;
+}
+
+.centerColumnFooterRightFirst > p,
+h1 {
+  color: white;
+}
+
+.centerColumnFooterRightSecond {
+  width: 100%;
+  height: 100%;
+  background-color: #643a69;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 25px;
+}
+
+.centerColumnFooterRightSecond > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.centerColumnFooterRightSecond > div > p {
+  color: white;
+}
+
+.centerColumnFooterRightSecond > p,
+h1 {
+  color: white;
+}
+
+.rightColumn {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: burlywood;
+}
+
+.rightColumnBody {
+  width: 90%;
+  height: 100%;
+  background-color: orange;
+}
+
+.rightColumnHeader {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rightColumnHeaderCenter {
+  background-color: red;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
